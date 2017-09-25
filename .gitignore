@@ -11,5 +11,5 @@ bower_components/
 .module-cache
 
 #IDEA
-ultimate-flask-front-end-2.1/.idea
+.idea
 *.iml
