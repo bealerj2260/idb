@@ -33,9 +33,34 @@ def tournaments():
     return render_template('tournaments.html')
 
 
-@app.route('/player_1')
-def player_1():
-    return  render_template('player_1.html')
+@app.route('/yiliang')
+def yiliang():
+    return  render_template('yiliang_peng.html')
+
+
+@app.route('/nikola')
+def nikola():
+    return render_template('nikola-kovac.html')
+
+
+@app.route('/adam')
+def adam():
+    return render_template('adam_lindgren.html')
+
+
+@app.route('/league')
+def league():
+    return render_template('league-of-legends.html')
+
+
+@app.route('/ssbm')
+def ssbm():
+    return render_template('ssbm.html')
+
+
+@app.route('/csgo')
+def csgo():
+    return render_template('csgo.html')
 
 if __name__ == '__main__':
     app.run()
