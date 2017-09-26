@@ -62,5 +62,20 @@ def ssbm():
 def csgo():
     return render_template('csgo.html')
 
+
+@app.route('/solomid')
+def solomid():
+    return render_template('soloMid.html')
+
+
+@app.route('/fnatic')
+def fnatic():
+    return render_template('fnatic.html')
+
+
+@app.route('/liquid')
+def liquid():
+    return render_template('liquid.html')
+
 if __name__ == '__main__':
     app.run()
