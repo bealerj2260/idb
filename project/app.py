@@ -77,5 +77,21 @@ def fnatic():
 def liquid():
     return render_template('liquid.html')
 
+
+@app.route('/dreamhack')
+def dreamhack():
+    return render_template('dreamhack.html')
+
+
+@app.route('/nalcs')
+def nalcs():
+    return render_template('nalcs.html')
+
+
+@app.route('/ti7')
+def ti7():
+    return render_template('ti7.html')
+
+
 if __name__ == '__main__':
     app.run()
