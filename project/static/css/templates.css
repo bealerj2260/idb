@@ -20,3 +20,21 @@
   margin: auto;
   padding-top: 10px;
 }
+
+.detail-image {
+    margin: auto;
+    height: auto;
+}
+
+.labels {
+    font-weight: bold;
+    text-align: left;
+}
+
+.lists {
+    margin: auto;
+}
+
+.detail-columns {
+    width: 20%;
+}

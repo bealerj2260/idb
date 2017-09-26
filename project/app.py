@@ -32,5 +32,10 @@ def teams():
 def tournaments():
     return render_template('tournaments.html')
 
+
+@app.route('/player_1')
+def player_1():
+    return  render_template('player_1.html')
+
 if __name__ == '__main__':
     app.run()
