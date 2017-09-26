@@ -27,5 +27,10 @@ def games():
 def teams():
     return render_template('teams.html')
 
+
+@app.route('/tournaments')
+def tournaments():
+    return render_template('tournaments.html')
+
 if __name__ == '__main__':
     app.run()
