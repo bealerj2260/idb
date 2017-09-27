@@ -58,3 +58,7 @@
 .page-title {
     text-align: center;
 }
+
+.circle {
+    border-radius: 50%;
+}
