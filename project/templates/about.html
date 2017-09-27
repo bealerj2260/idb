@@ -9,6 +9,7 @@
     <!--styles-->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
       <link rel="stylesheet" href="static/css/templates.css">
+      <link rel="stylesheet" href="static/css/about.css">
 
   </head>
 
@@ -52,13 +53,13 @@
     </nav>
 <body>
 
-<h1 style="width: 100%; margin-left: 1%; padding-top: 10px; text-align: center">About</h1>
+<h1 class="page-title">About</h1>
 
 <hr>
 
 <div>
 
-    <div class="container" style="padding: 20px;">
+    <div class="container description">
         <p>This site is used to gather information about the ESports scene for all existing games as well as the
             relevant players and teams that exist for each game. With the main goal of the site is to allow the average
             player and the average viewer as well as the professional players to find out information about people who
@@ -67,14 +68,14 @@
             scene of a certain game.</p>
     </div>
 
-    <div class="container" style="padding-top: 20px">
+    <div class="container team-members">
         <div class="row align-self-top">
             <div class="col">
-                <h1 style="text-align: center;">Rachel Beale</h1>
+                <h1 class="name">Rachel Beale</h1>
                 <div class="thumbnail">
-                    <img src="../static/images/Rachel-Head-Shot.jpg" class="img-fluid" style="border-radius: 50%">
+                    <img src="../static/images/Rachel-Head-Shot.jpg" class="img-fluid circle">
                 </div>
-                <div style="font-size: 20px; list-style-type: none; text-align: center;">
+                <div class="details">
                     <p>Currently a software engineering intern at Blackbaud. She will be graduating in Winter 2017 with
                         a B.S.A. in Computer Science before joining the Blackbaud team full-time in January. </p>
                     <b>Responsibilities:</b>
@@ -85,11 +86,11 @@
                 </div>
             </div>
             <div class="col">
-                <h1 style="text-align: center;">Persia Ghaffari</h1>
+                <h1 class="name">Persia Ghaffari</h1>
                 <div class="thumbnail">
-                    <img src="../static/images/Persia-Head-Shot.jpg" class="img-fluid" style="border-radius: 50%">
+                    <img src="../static/images/Persia-Head-Shot.jpg" class="img-fluid center">
                 </div>
-                <div style="font-size: 20px; list-style-type: none; text-align: center;">
+                <div class="details">
                     <p>Is looking to get a job in the gaming industry and programmed for hidden achievement where her team
                         won Best Overall Game at the Intel Game Developers Showcase. She also hosts Super Smash Bro tournments on Friday.
                         She will be graduating in Winter of 2017 with a B.S.A in Computer Science. </p>
@@ -101,11 +102,11 @@
                 </div>
             </div>
             <div class="col">
-                <h1 style="text-align: center;">Kevin Zhang</h1>
+                <h1 class="name">Kevin Zhang</h1>
                 <div class="thumbnail">
-                    <img src="../static/images/Kevin-Head-Shot.jpg" class="img-fluid" style="border-radius: 50%">
+                    <img src="../static/images/Kevin-Head-Shot.jpg" class="img-fluid circle">
                 </div>
-                <div style="font-size: 20px; list-style-type: none; text-align: center;">
+                <div class="details">
                     <p>Kevin Zhang likes to spend his free time working on personal projects and practicing technical interviews.
                         He is efficient in Swift and has developed iOS app(s). He will be graduating in Spring 2019. </p>
                     <b>Responsibilities:</b>
@@ -116,13 +117,13 @@
                 </div>
             </div>
         </div>
-        <div class="row align-self-start" style="padding-top: 20px;">
+        <div class="row align-self-start team-members">
             <div class="col">
-                <h1 style="text-align: center;">Thien Q Vo</h1>
+                <h1 class="name">Thien Q Vo</h1>
                 <div class="thumbnail">
-                    <img src="../static/images/Thien-Head-Shot.jpg" class="img-fluid" style="border-radius: 50%">
+                    <img src="../static/images/Thien-Head-Shot.jpg" class="img-fluid center">
                 </div>
-                <div style="font-size: 20px; list-style-type: none; text-align: center;">
+                <div class="details">
                     <p>Thien is an avid gamer who also like to spend time doing coding challenges on HackerRank.
                         He will be graduating in 2017-2018.</p>
                     <b>Responsibilities:</b>
@@ -133,11 +134,11 @@
                 </div>
             </div>
             <div class="col">
-                <h1 style="text-align: center;">Eric Liu</h1>
+                <h1 class="name">Eric Liu</h1>
                 <div class="thumbnail">
-                    <img src="../static/images/Eric-Head-Shot.jpg" class="img-fluid" style="border-radius: 50%">
+                    <img src="../static/images/Eric-Head-Shot.jpg" class="img-fluid circle">
                 </div>
-                <div style="font-size: 20px; list-style-type: none; text-align: center;">
+                <div class="details">
                     <p>Eric Liu will be graduating in spring of 2019.</p>
                     <b>Responsibilities:</b>
                     <p>Frontend</p>
@@ -148,9 +149,9 @@
             </div>
         </div>
         <hr>
-        <div class="col"style="margin: auto">
-            <h1 style="text-align: center;">Other Information</h1>
-            <div style="font-size: 20px;text-align: center;">
+        <div class="col center">
+            <h1 class="name">Other Information</h1>
+            <div class="details">
                 <div><b>Number of Commits:</b> 515</div>
                 <div><b>Number of Issues:</b> 520</div>
                 <div><b>Number of Unit Tests:</b> 525</div>
@@ -174,7 +175,7 @@
                 <div><b>Trello</b> was used for issue tracking.</div>
                 <div><b>PlanItPoker</b> was used to help estimate tasks.</div>
                 <br>
-                <a class="nav-link" href="" style="padding-bottom: 20px;">Technical Report</a>
+                <a class="nav-link tech-report" href="">Technical Report</a>
                 <br>
             </div>
         </div>
