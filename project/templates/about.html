@@ -166,6 +166,13 @@
                 <div><a href="https://api.pandascore.co/rest"> Pandascore API</a></div>
                 <div><a href="https://api.challonge.com/v1"> Challonge API</a></div>
                 <br>
+                <div>We utilized the python modules requests and json to extract data from our chosen external APIs,
+                    PandaScore and IGDB respectfully. For the player, tournament, and team models, we used the PandaScore's
+                    API, while for the game model, we used IGDB's API. For each model, we used the REST Get function to
+                    retrieve a JSON string, converted it into a python JSON object, and then parsed through the JSON to
+                    retrieve values. Once we had the respective values, we inserted them as records into each of their
+                    respective tables in our database.</div>
+                <br>
                 <b>Tools</b>
                 <br>
                 <div><b>BootStrap</b> was used to find templates for our frontend.</div>
